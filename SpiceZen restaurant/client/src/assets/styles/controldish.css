@@ -1,0 +1,38 @@
+.row .btnn {
+    margin-top: -20px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.row {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+tr td {
+    height: auto;
+}
+
+.btn {
+    margin-right: 3px
+}
+
+.block {
+    margin-top: -5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-group {
+    width: auto;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+input:invalid:required {
+    background-image: linear-gradient(to right, pink, lightgrey);
+}

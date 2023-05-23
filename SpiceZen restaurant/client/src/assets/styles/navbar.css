@@ -1,0 +1,35 @@
+.navbar-brand {
+    color: #282c34 !important;
+    font-size: 22px !important;
+    padding-left: 20px;
+    height: auto;
+}
+
+.cart-count {
+    background-color: #31402f;
+    color: white;
+    font-size: 12px;
+    padding: 1px 5px;
+    border-radius: 50%;
+    height:50%;
+}
+
+.carts {
+    display:flex;
+}
+
+.title {
+    letter-spacing: 5px !important;
+}
+
+.nav-item {
+    padding-right: 20px;
+}
+
+.custom .navbar-nav .nav-link {
+    color: #282c34 !important;
+}
+
+nav {
+    background: #cce6cb !important;
+}

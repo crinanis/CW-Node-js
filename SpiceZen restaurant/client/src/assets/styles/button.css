@@ -1,0 +1,57 @@
+.button-56 {
+    width: 120px;
+    align-items: center;
+    background-color: #cce6cb;
+    border: 2px solid #282c34;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #282c34;
+    cursor: pointer;
+    display: flex;
+    font-family: 'Wix Madefor Display', sans-serif !important;
+    font-size: 16px;
+    height: 40px;
+    padding: 0 -10px;
+    justify-content: center;
+    max-width: 100%;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-56:after {
+    background-color: #282c34;
+    border-radius: 15px;
+    content: "";
+    display: block;
+    height: 40px;
+    left: 0;
+    width: 120px;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+}
+
+.button-56:hover:after {
+    transform: translate(0, 0);
+}
+
+.button-56:active {
+    background-color: #cce6cb;
+    outline: 0;
+}
+
+.button-56:hover {
+    outline: 0;
+}
+
+@media (min-width: 400px) {
+    .button-56 {
+        padding: -10px -10px;
+    }
+}

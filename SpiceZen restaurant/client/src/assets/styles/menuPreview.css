@@ -1,0 +1,18 @@
+.menuPreview {
+    border-radius: 10px;
+    background: #a3d0b5;
+    height: 600px;
+    margin: 40px 40px -100px;
+}
+
+.carousel {
+    height: 600px;
+}
+
+
+.react-multi-carousel-item {
+    width: 350px !important;
+}
+
+
+
